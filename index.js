@@ -75,7 +75,7 @@ class Menu {
 
     createFavorite() { 
         let authors = prompt(`Enter title of book`); 
-        this.books.push(new Favorite(title);
+        this.books.push(new Favorite(title));
     }
 
     viewFavorites() { 
@@ -92,6 +92,6 @@ class Menu {
         }
     }   
 } 
-
-let menu = newMenu(); 
+ 
+let menu = new Menu();
 menu.start(); 
